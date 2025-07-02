@@ -1,21 +1,22 @@
 # Exploratory-Data-Analysis-Of-Ipl-Dataset
-# Description
-* Context
-Cricket is a bat-and-ball game played between two teams of eleven players each on a cricket field, at the centre of which is a rectangular 20-metre (22-yard) pitch with a target at each end called the wicket (a set of three wooden stumps upon which two bails sit). Each phase of play is called an innings, during which one team bats, attempting to score as many runs as possible, whilst their opponents bowl and field, attempting to minimise the number of runs scored. When each innings ends, the teams usually swap roles for the next innings (i.e. the team that previously batted will bowl/field, and vice versa). The teams each bat for one or two innings, depending on the type of match. The winning team is the one that scores the most runs, including any extras gained (except when the result is not a win/loss result). Source: https://en.wikipedia.org/wiki/Cricket
+📄 Description
 
-* Content
-All Indian Premier League Cricket matches between 2008 and 2016.
+This project focuses on analyzing ball-by-ball data from Indian Premier League (IPL) matches between the 2008 and 2016 seasons. The aim is to derive meaningful insights and perform predictive analysis, such as forecasting potential match outcomes based on historical data.
 
-This is the ball by ball data of all the IPL cricket matches till season 9.
+🏏 About the Game
 
-The dataset contains 2 files: deliveries.csv and matches.csv.
+Cricket is a bat-and-ball sport played between two teams of eleven players on a field, featuring a 22-yard pitch with wickets at each end. Each team alternates between batting and fielding, with the primary goal being to score more runs than the opponent. More details can be found on Wikipedia.
 
-matches.csv contains details related to the match such as location, contesting teams, umpires, results, etc.
+📂 Dataset Details
 
-deliveries.csv is the ball-by-ball data of all the IPL matches including data of the batting team, batsman, bowler, non-striker, runs scored, etc.
+This dataset includes comprehensive IPL match data in two CSV files:
+	•	matches.csv: Contains high-level match information such as team names, venue, umpires, and match results.
+	•	deliveries.csv: Offers ball-by-ball data including the batting and bowling teams, batsman, bowler, non-striker, runs scored, and more.
 
-* Acknowledgements
-Source: http://cricsheet.org/ (data is available on this website in the YAML format. This is converted to CSV format by the contributors)
+📌 Source & Acknowledgements
+	•	The original data was sourced from Cricsheet.org, available in YAML format and later converted to CSV by contributors.
+	•	Kaggle dataset link: https://www.kaggle.com/manasgarg/ipl
 
-* Inspiration
-Research scope: Predicting the winner of the next season of IPL based on past data, Visualizations, Perspectives, etc.
+🎯 Project Objective
+
+This project explores patterns in player performance and match dynamics, with a research goal of building models to predict the winner of upcoming IPL matches using historical data, visualizations, and statistical analysis.
